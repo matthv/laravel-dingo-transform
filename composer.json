@@ -1,0 +1,31 @@
+{
+    "name": "matthv/laravel-dingo-transform",
+    "description": "This repository lets your API users pass in and receive camelCased or snake_cased keys while your app receives and produces snake_cased ones.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthieu",
+            "email": "matthv@gmail.com",
+            "homepage": "https://www.matthieuvideaud.fr"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/support": "^5.6.0",
+        "dingo/api": "2.0.0-alpha1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Matthv\\LaravelDingoTransform\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Matthv\\LaravelDingoTransform\\EventServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
