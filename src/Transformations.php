@@ -6,6 +6,12 @@ use Illuminate\Support\Str;
 
 class Transformations
 {
+	/**
+	 * @param array $data
+	 * @param string $type
+	 * @return array
+	 * @throws \ReflectionException
+	 */
     public static function transform(array $data, $type = 'snake') {
         $newData = [];
         foreach ($data as $key => $value) {
