@@ -10,6 +10,7 @@ class UpdateRequest
 {
 	/**
 	 * @param RequestWasMatched $event
+	 * @throws \ReflectionException
 	 */
     public function handle(RequestWasMatched $event) {
         $all = $event->request->all();
