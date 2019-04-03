@@ -7,3 +7,11 @@
 ## 1.0.1 (October 30, 2018)
 
 - update listener UpdateResponse
+
+## 1.0.2 (November 05, 2018)
+
+- fix transformation
+
+## 1.0.3 (April 03, 2019)
+
+- composer update dingo/api version
