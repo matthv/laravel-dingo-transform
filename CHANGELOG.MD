@@ -15,3 +15,8 @@
 ## 1.0.3 (April 03, 2019)
 
 - composer update dingo/api version
+
+## 1.0.4 (October 03, 2019)
+
+- composer update illuminate/support version
+- composer update dingo/api version
