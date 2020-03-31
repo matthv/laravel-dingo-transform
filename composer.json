@@ -10,9 +10,9 @@
         }
     ],
     "require": {
-        "php": "^7.1",
-        "illuminate/support": "^5.5 || ^6.0",
-        "dingo/api": "^2"
+        "php": "^7.2.5",
+        "illuminate/support": "^7.0",
+        "dingo/api": "^3"
     },
     "autoload": {
         "psr-4": {

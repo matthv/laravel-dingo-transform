@@ -8,6 +8,15 @@ use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvi
 use Matthv\LaravelDingoTransform\Listeners\UpdateRequest;
 use Matthv\LaravelDingoTransform\Listeners\UpdateResponse;
 
+/**
+ * Class EventServiceProvider
+ *
+ * @category Laravel-dingo-transform
+ * @package  Laravel-dingo-transform
+ * @author   Matthieu Videaud <matthv@gmail.com>
+ * @license  http://opensource.org/licenses/gpl-license.php GNU Public License
+ * @link     https://www.matthieuvideaud.fr
+ */
 class EventServiceProvider extends ServiceProvider
 {
     /**
