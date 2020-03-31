@@ -20,3 +20,8 @@
 
 - composer update illuminate/support version
 - composer update dingo/api version
+
+## 1.1.0 (March 31, 2020)
+
+- composer update illuminate/support laravel 7
+- composer update dingo/api version 3
