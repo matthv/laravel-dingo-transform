@@ -8,12 +8,12 @@ It lets your API users pass in and receive camelCased or snake_cased keys while 
 # Installation
 
 ```
-composer require 'matthv/laravel-dingo-transform' '~1.1'
+composer require 'matthv/laravel-dingo-transform' '~1.2'
 ```
 
 # Requirements
 
-- Laravel 7
+- Laravel 7/8
 - Dingo/api 3.+
 
 # Use
