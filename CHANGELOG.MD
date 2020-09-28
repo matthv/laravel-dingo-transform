@@ -25,3 +25,7 @@
 
 - composer update illuminate/support laravel 7
 - composer update dingo/api version 3
+
+## 1.2.0 (September 28, 2020)
+
+- allow laravel 8
