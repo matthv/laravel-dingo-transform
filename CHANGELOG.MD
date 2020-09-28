@@ -29,3 +29,7 @@
 ## 1.2.0 (September 28, 2020)
 
 - allow laravel 8
+
+#### 1.2.1 (September 28, 2020)
+
+- update docs
