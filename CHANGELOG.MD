@@ -33,3 +33,7 @@
 #### 1.2.1 (September 28, 2020)
 
 - update docs
+
+## 1.3.0 (July 27, 2021)
+
+- allow php 8
