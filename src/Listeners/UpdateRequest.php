@@ -2,7 +2,6 @@
 
 namespace Matthv\LaravelDingoTransform\Listeners;
 
-
 use Dingo\Api\Event\RequestWasMatched;
 use Matthv\LaravelDingoTransform\Transformations;
 
@@ -17,7 +16,5 @@ class UpdateRequest
 		$event->request->query->replace(Transformations::transform($event->request->query()));
         $event->request->replace(Transformations::transform($all));
 		$event->request->request->replace(Transformations::transform($all));
-
     }
-
 }
